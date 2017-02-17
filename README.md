@@ -3,11 +3,12 @@ Command line meal planning app, inspired by Tim Ferriss' [The 4-Hour Chef](https
 
 ## Requirements
 - Python version 2.7
+- [nose](https://pypi.python.org/pypi/nose/)
 
-## Runnng tests
+## Running tests
 This project uses the unittest framework, which is a standard module that comes shipped with python version 2.1 and higher.
+It also uses nose, an external Python unit test framework. It extends unittest to make testing easier.
 
-To run, navigate to the test directory and run a test file using this sample command:
-- ```python recipe_test.py```
+To run, navigate into the main directory and type `nosetests`.
 
 Happy eating!
