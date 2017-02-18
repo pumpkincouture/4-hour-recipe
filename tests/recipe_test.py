@@ -4,7 +4,7 @@ import unittest
 
 class RecipeTestCase(unittest.TestCase):
     def test_recipe_has_name(self):
-        salmon = MagicMock("Salmon", "1", "10")
+        salmon = MagicMock("Salmon", 1, 10)
         ingredients = [salmon]
         prep_time = 10
         cook_time = 15
@@ -13,7 +13,7 @@ class RecipeTestCase(unittest.TestCase):
         self.assertEqual(recipe.name, "Oven Baked Salmon")
 
     def test_recipe_has_ingredients(self):
-        salmon = MagicMock("Salmon", "1", "10")
+        salmon = MagicMock("Salmon", 1, 10)
         ingredients = [salmon]
         prep_time = 10
         cook_time = 15
