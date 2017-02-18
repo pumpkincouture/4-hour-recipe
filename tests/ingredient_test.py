@@ -11,8 +11,8 @@ class IngredientTestCase(unittest.TestCase):
         self.assertEqual(ingredient.quantity, 2)
 
     def test_ingredient_has_price(self):
-        ingredient = Ingredient("Corn", 2, 1)
-        self.assertEqual(ingredient.price, 1)
+        ingredient = Ingredient("Corn", 2, 2.35)
+        self.assertEqual(ingredient.price, 2.35)
 
 if __name__ == '__main__':
     unittest.main()
